@@ -41,7 +41,7 @@ tabPanel("EpiScope",
                ),
                tabPanel('TSS Heatmap',
                         h3('Heatmap visualization of TSS coverage'),
-                        numericInput('TSS_range','Range of TSS site',value = 2000,min = 0),
+                        numericInput('TSS_range','Range of TSS site',value = 3000,min = 0),
                         actionButton(inputId = 'TSS_heatmap_submit',label = 'Submit'),
                         plotOutput('TSS_Heatmap',width = '50%')
                ),
